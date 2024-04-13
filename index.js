@@ -1,11 +1,11 @@
 // Importamos dependencias
 import express from 'express';
-import dotenv from 'dotenv';
+// import dotenv from 'dotenv';
 import cors from 'cors';
 import data from './api.js';
 import { v4 as uuidv4 } from 'uuid';
 // Cargarmos las variables de entorno
-dotenv.config();
+// dotenv.config();
 
 // Creamos instancia de express
 const app = express();
